@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text{
+    font-size: 23rem;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: transparent;
+  }
+  
+  .scrollbar-none::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }

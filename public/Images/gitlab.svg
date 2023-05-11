@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="Ellipse_4" data-name="Ellipse 4" fill="none" stroke="#fffbfb" stroke-width="1">
+    <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+    <circle cx="31.5" cy="31.5" r="31" fill="none"/>
+  </g>
+  <path id="Icon_awesome-gitlab" data-name="Icon awesome-gitlab" d="M7.4,1.751a.705.705,0,0,0-1.329,0L2.1,14.041h9.281c-.007,0-3.98-12.291-3.98-12.291ZM.063,20.229a1.4,1.4,0,0,0,.5,1.547l17.43,12.937L2.088,14.041ZM11.37,14.041,18,34.713l6.63-20.672Zm24.567,6.188-2.025-6.187L18,34.713,35.43,21.776a1.406,1.406,0,0,0,.506-1.547Zm-6-18.478a.705.705,0,0,0-1.329,0l-3.98,12.291H33.9Z" transform="translate(13.002 14.503)" fill="#fff"/>
+</svg>
