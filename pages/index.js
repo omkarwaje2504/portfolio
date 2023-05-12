@@ -18,7 +18,7 @@ export default function Home() {
           name="descriptive"
           content="Here you get the top level graphically represented analysis tool. get the market cap and market detail and market up's and down's on one single place. Trade using the analysis and be the hero of the crypto market."
         />
-        <link rel="icon" href="/images/logo.png" type="image/x-icon" />
+        <link rel="icon" href="/_images/logo.png" type="image/x-icon" />
       </Head>
       <main className="bg-[#171717] h-screen p-8 ">
         <div className=" h-full w-full">
