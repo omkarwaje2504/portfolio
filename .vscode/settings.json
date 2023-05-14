@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "terminal.integrated.minimumContrastRatio": 1,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen"
+}
