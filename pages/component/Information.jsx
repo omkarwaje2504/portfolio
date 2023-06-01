@@ -91,13 +91,14 @@ const Information = () => {
                     <Experience year={'2023'} period={'Currently working'} job={'Developer / graphic designer'}  company={"Sai Ashirwad Informatia/Bhayander"} des={`"I paint the digital canvas with pixels, blend code and creativity, sculpting experiences that bridge art and technology. As a multidisciplinary creator, I bring visions to life, weaving design, development, and user-centered magic into seamless digital tapestries."`} />
                 </div>
             </div>
+              {/* ---------------------------------project ------------------------------------------------------------------- */}
             <div className='mt-16 space-y-12'>
                 <div className='mt-20'>
-                    <h1 className='lg:text-2xl py-1'>Project</h1>
+                    <h1 className='lg:text-2xl text-lg py-1'>Project</h1>
                     <hr />
                 </div>
-                <div className='space-y-20 py-4'>
-                   <Project project="crypstat" heading="The most powerfull graph analysis tool."/>
+                <div className='space-y-10 md:space-y-20 py-4'>
+                   <Project project="crypstat" heading="The most powerfull graph analysis tool." tech="React-js, Tailwind css"/>
                 </div>
             </div>
         </div>

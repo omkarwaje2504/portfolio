@@ -4,7 +4,7 @@ import Link from "next/link";
 const Profile = () => {
   const component = () => {};
   return (
-    <div className="relative flex flex-col 2xl:py-12 lg:py-6 rounded-lg border border-white md:h-full h-screen items-center justify-center p-3">
+    <div className="relative flex flex-col 2xl:py-12 lg:py-6 rounded-lg border border-white md:h-full h-[95vh] items-center justify-center p-3">
       {/* --------------------Profile image ------------------------ */}
       <div className="w-4/5 lg:w-2/4 overflow-clip rounded-2xl">
         <img
@@ -47,7 +47,7 @@ const Profile = () => {
         contact me
       </button>
 
-      <Link className="absolute p-2 md:p-6 top-0 right-0" href="/lib/Dashboard">
+      <Link className="absolute p-3 md:p-6 top-0 right-0" href="/lib/Dashboard">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
