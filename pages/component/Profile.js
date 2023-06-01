@@ -4,9 +4,9 @@ import Link from "next/link";
 const Profile = () => {
   const component = () => {};
   return (
-    <div className="relative flex flex-col 2xl:py-12 lg:py-6 rounded-lg border border-white h-full items-center justify-center p-3">
+    <div className="relative flex flex-col 2xl:py-12 lg:py-6 rounded-lg border border-white md:h-full h-screen items-center justify-center p-3">
       {/* --------------------Profile image ------------------------ */}
-      <div className="w-2/3 lg:w-2/4 overflow-clip rounded-2xl">
+      <div className="w-4/5 lg:w-2/4 overflow-clip rounded-2xl">
         <img
           src="/_images/profile-pic.png"
           alt="omkarProfile"
@@ -15,20 +15,20 @@ const Profile = () => {
       </div>
       {/* --------------------profile ------------------------ */}
       <div className="p-3 text-white text-center space-y-1 2xl:mt-4 lg:mt-3">
-        <h1 className="2xl:text-3xl lg:text-2xl font-semibold uppercase">
+        <h1 className="2xl:text-3xl text-2xl font-semibold uppercase">
           Omkar Waje
         </h1>
-        <p className="font-light 2xl:text-normal text-sm">
+        <p className="font-light 2xl:text-normal text-lg">
           Web Developer, UI / UX Designer <br></br>Graphic Designer
         </p>
       </div>
       {/* --------------------Email and location ------------------------ */}
-      <div className="text-white text-center 2xl:space-y-1 2xl:mt-6 lg:mt-4 font-light w-full text-sm">
-        <p className="2xl:text-2xl lg:text-xl ">omkarwaje25042002@gmail.com</p>
+      <div className="text-white text-center 2xl:space-y-1 2xl:mt-6 lg:mt-4 font-light w-full text-lg">
+        <p className="2xl:text-2xl">omkarwaje25042002@gmail.com</p>
         <p>Nallasopara (East)</p>
       </div>
       {/* --------------------social media icons ------------------------ */}
-      <div className="flex flex-row justify-between md:w-1/2 w-1/2 2xl:mt-8 lg:mt-6 mt-4">
+      <div className="flex flex-row justify-between md:w-1/2 w-1/2 2xl:mt-8 mt-6">
         <div className=" rounded-full 2xl:w-12 2xl:h-12 h-8 w-8 hover:bg-[#ff8521]">
           <img src="/_images/instagram.svg" alt="instagram" />
         </div>
@@ -43,7 +43,7 @@ const Profile = () => {
         </div>
       </div>
       {/* ------------------------Contact me button ------------------ */}
-      <button className="md:w-2/3 2xl:mt-6 lg:mt-4 mt-4 rounded-lg bg-[#4C89F8] hover:bg-[#306ad4]  uppercase font-semibold 2xl:text-2xl lg:text-xl text-sm w-fit px-6 2xl:py-4 lg:py-3 py-2 text-white">
+      <button className="md:w-2/3 2xl:mt-6 lg:mt-4 mt-8 rounded-lg bg-[#4C89F8] hover:bg-[#306ad4]  uppercase font-semibold 2xl:text-2xl text-xl w-fit px-6 2xl:py-4 lg:py-3 py-2 text-white">
         contact me
       </button>
 
