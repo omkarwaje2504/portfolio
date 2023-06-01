@@ -14,3 +14,7 @@
   .scrollbar-none::-webkit-scrollbar-thumb {
     background-color: transparent;
   }
+
+body{
+  background-color:#171717;
+}
