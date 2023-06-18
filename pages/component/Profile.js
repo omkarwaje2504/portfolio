@@ -30,16 +30,16 @@ const Profile = () => {
       {/* --------------------social media icons ------------------------ */}
       <div className="flex flex-row justify-between md:w-1/2 w-1/2 2xl:mt-8 mt-6">
         <div className=" rounded-full 2xl:w-12 2xl:h-12 h-8 w-8 hover:bg-[#ff8521]">
-          <img src="/_images/instagram.svg" alt="instagram" />
+          <a href="https://instagram.com/_itz_omkara_?igshid=ZGUzMzM3NWJiOQ=="><img src="/_images/instagram.svg" alt="instagram" /></a>
         </div>
         <div className="rounded-full 2xl:w-12 2xl:h-12 w-8 h-8  hover:bg-[#4C89F8]">
-          <img src="/_images/facebook.svg" alt="facebook" />
+          <a href="https://www.facebook.com/omkar.waje.5?mibextid=ZbWKwL"><img src="/_images/facebook.svg" alt="facebook" /></a>
         </div>
         <div className="rounded-full 2xl:w-12 2xl:h-12 w-8 h-8  hover:bg-[#0f3cb8]">
-          <img src="/_images/linkedIn.svg" alt="linkedIn" />
+          <a href="https://www.linkedin.com/in/omkar-waje-1755a2245"><img src="/_images/linkedIn.svg" alt="linkedIn" /></a>
         </div>
         <div className="rounded-full 2xl:w-12 2xl:h-12 w-8 h-8 hover:bg-[#fa3535]">
-          <img src="/_images/gitlab.svg" alt="gitlab" />
+          <a href="https://github.com/omkarwaje2504"><img src="/_images/github.svg" alt="gitlab" /></a>
         </div>
       </div>
       {/* ------------------------Contact me button ------------------ */}
