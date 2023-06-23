@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Profile = () => {
+const Profile = (clicker) => {
   const component = () => {};
   return (
     <div className="relative flex flex-col 2xl:py-12 lg:py-6 rounded-lg border border-white md:h-full h-[95vh] items-center justify-center p-3">
@@ -30,22 +30,33 @@ const Profile = () => {
       {/* --------------------social media icons ------------------------ */}
       <div className="flex flex-row justify-between md:w-1/2 w-1/2 2xl:mt-8 mt-6">
         <div className=" rounded-full 2xl:w-12 2xl:h-12 h-8 w-8 hover:bg-[#ff8521]">
-          <a href="https://instagram.com/_itz_omkara_?igshid=ZGUzMzM3NWJiOQ=="><img src="/_images/instagram.svg" alt="instagram" /></a>
+          <a href="https://instagram.com/_itz_omkara_?igshid=ZGUzMzM3NWJiOQ==">
+            <img src="/_images/instagram.svg" alt="instagram" />
+          </a>
         </div>
         <div className="rounded-full 2xl:w-12 2xl:h-12 w-8 h-8  hover:bg-[#4C89F8]">
-          <a href="https://www.facebook.com/omkar.waje.5?mibextid=ZbWKwL"><img src="/_images/facebook.svg" alt="facebook" /></a>
+          <a href="https://www.facebook.com/omkar.waje.5?mibextid=ZbWKwL">
+            <img src="/_images/facebook.svg" alt="facebook" />
+          </a>
         </div>
         <div className="rounded-full 2xl:w-12 2xl:h-12 w-8 h-8  hover:bg-[#0f3cb8]">
-          <a href="https://www.linkedin.com/in/omkar-waje-1755a2245"><img src="/_images/linkedIn.svg" alt="linkedIn" /></a>
+          <a href="https://www.linkedin.com/in/omkar-waje-1755a2245">
+            <img src="/_images/linkedIn.svg" alt="linkedIn" />
+          </a>
         </div>
         <div className="rounded-full 2xl:w-12 2xl:h-12 w-8 h-8 hover:bg-[#fa3535]">
-          <a href="https://github.com/omkarwaje2504"><img src="/_images/github.svg" alt="gitlab" /></a>
+          <a href="https://gitlab.com/omkarwaje2504">
+            <img src="/_images/gitlab.svg" alt="gitlab" />
+          </a>
         </div>
       </div>
       {/* ------------------------Contact me button ------------------ */}
-      <button className="md:w-2/3 2xl:mt-6 lg:mt-4 mt-8 rounded-lg bg-[#4C89F8] hover:bg-[#306ad4]  uppercase font-semibold 2xl:text-2xl text-xl w-fit px-6 2xl:py-4 lg:py-3 py-2 text-white">
+      <Link
+        className="md:w-2/3 2xl:mt-6 text-center lg:mt-4 mt-8 rounded-lg bg-[#4C89F8] hover:bg-[#306ad4]  uppercase font-semibold 2xl:text-2xl text-xl w-fit px-6 2xl:py-4 lg:py-3 py-2 text-white"
+        href="/contact"
+      >
         contact me
-      </button>
+      </Link>
 
       <Link className="absolute p-3 md:p-6 top-0 right-0" href="/lib/Dashboard">
         <svg

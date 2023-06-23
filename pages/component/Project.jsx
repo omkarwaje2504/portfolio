@@ -9,10 +9,10 @@ const Project = (props) => {
             <div className='w-full md:h-36 overflow-clip object-center md:items-center flex'>
                 <img src={`/_images/${props.project}.jpg`} alt={props.project} />
             </div>
-            <h1 className='flex flex-row text-xl md:text-4xl '>{props.project} - {props.heading}</h1>
+            <h1 className='flex flex-row text-xl lg:text-2xl 2xl:text-4xl '>{props.project} - {props.heading}</h1>
             <p>{props.tech}</p>
             <div className='flex flex-col md:space-x-6 pt-6 items-center'>
-                <button onClick={visit} className='text-lg md:text-2xl font-semibold text-white px-12 py-3 rounded-lg bg-[#4C89F8] w-full '>Click to visit</button>
+                <button onClick={visit} className='text-lg 2xl:text-2xl font-semibold text-white px-12 py-3 rounded-lg bg-[#4C89F8] w-full '>Click to visit</button>
             </div>
         </div>
     )
